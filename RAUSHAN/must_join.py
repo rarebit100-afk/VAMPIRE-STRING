@@ -14,7 +14,7 @@ async def must_join_channel(bot: Client, msg: Message):
             await bot.get_chat_member(MUST_JOIN, msg.from_user.id)
         except UserNotParticipant:
             if MUST_JOIN.isalpha():
-                link = "https://t.me/llDPZ_EDITIXll" + MUST_JOIN
+                link = "https://t.me/rarebit_gamers" + MUST_JOIN
             else:
                 chat_info = await bot.get_chat(MUST_JOIN)
                 link = chat_info.invite_link
@@ -24,7 +24,7 @@ async def must_join_channel(bot: Client, msg: Message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("🔶 ᴊᴏɪɴ ᴏғғɪᴄᴇ 🔶", url = "https://t.me/llDPZ_EDITIXll"),
+                                InlineKeyboardButton("🔶 ᴊᴏɪɴ ᴏғғɪᴄᴇ 🔶", url = "https://t.me/rarebit_gamers"),
                             ]
                         ]
                     )
