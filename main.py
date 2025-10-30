@@ -23,11 +23,11 @@ app = Client(
     api_hash=config.API_HASH,
     bot_token=config.BOT_TOKEN,
     in_memory=True,
-    plugins=dict(root="RAUSHAN"),
+    plugins=dict(root="KRISH"),
 )
 
 if __name__ == "__main__":
-    print("𝙰𝚕𝚙𝚑𝚊 𝚂𝚎𝚜𝚜𝚒𝚘𝚗 𝙶𝚎𝚗 𝚜𝚝𝚊𝚛𝚝𝚒𝚗𝚐...")
+    print("𓆩⭕️ᴋ ʀ ɪ s ʜ🔻ᴋ ᴀ ᴩ ᴜ ʀ⭕️𓆪STRING GEN...")
     try:
         app.start()
     except ApiIdInvalid:
@@ -41,7 +41,7 @@ if __name__ == "__main__":
         raise
 
     uname = app.get_me().username
-    print(f"@{uname} NOW ALPHA SESSION GEN IS READY TO GEN SESSION")
+    print(f"@{uname} NOW 𓆩ᴋ ʀ ɪ s ʜ SESSION GEN IS READY TO GEN SESSION")
     
     idle()
     
