@@ -1,14 +1,14 @@
 import traceback
 from pyrogram import Client, filters
 from pyrogram.types import CallbackQuery, InlineKeyboardMarkup
-from RAUSHAN.generate import generate_session, ask_ques, buttons_ques
+from KRISH.generate import generate_session, ask_ques, buttons_ques
 
 ERROR_MESSAGE = """ɪғ ʏᴏᴜ ᴀʀᴇ ɢᴇᴛᴛɪɴɢ ᴇʀʀᴏʀ!
 ʏᴏᴜ ʜᴀᴠᴇ ᴅᴏɴᴇ sᴏᴍᴇ ᴍɪsᴛᴀᴋᴇ ᴡʜɪʟᴇ ɢᴇɴᴇʀᴀᴛɪɴɢ.
 ɢɪᴠᴇɴ ᴡʀᴏɴɢ ᴅᴀᴛᴀ ᴏʀ ᴇʟsᴇ.
 ᴛʀʏ ᴀɢᴀɪɴ ɪғ ʏᴏᴜ ᴄᴀɴ.
 ᴏʀ ɪғ ʏᴏᴜ ʜᴀᴠᴇ ғɪʟʟᴇᴅ ᴛʜɪɴɢs ᴄᴏʀʀᴇᴄᴛʟʏ ʙᴜᴛ ɢᴇᴛᴛɪɴɢ ᴇʀʀᴏʀ,
-ᴛʜᴇɴ ғᴏʀᴡᴀʀᴅ ᴇʀʀᴏʀ ᴍsɢ ᴛᴏ [𝐕𝚨𝐌𝐏𝐈𝐑𝚬 - ⌯𝐊𝐈𝐍�](https://t.me/lllVAMPIRE_KINGll) !"""
+ᴛʜᴇɴ ғᴏʀᴡᴀʀᴅ ᴇʀʀᴏʀ ᴍsɢ ᴛᴏ [𓆩⭕️ᴋ ʀ ɪ s ʜ🔻ᴋ ᴀ ᴩ ᴜ ʀ⭕️𓆪](https://t.me/KRISH_KAPOOR_SPAM) !"""
 
 @Client.on_callback_query(filters.regex(pattern=r"^(generate|pyrogram|pyrogram_bot|telethon_bot|telethon)$"))
 async def _callbacks(bot: Client, callback_query: CallbackQuery):
