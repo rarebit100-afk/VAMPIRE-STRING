@@ -1,4 +1,4 @@
-from RAUSHAN.db import db
+from KRISH.db import db
 
 usersdb = db.users
 
